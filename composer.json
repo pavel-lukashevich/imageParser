@@ -1,0 +1,22 @@
+{
+    "name": "lukashevich/parser",
+    "description": "Gets all pictures from the site",
+    "authors": [
+        {
+            "name": "Pavel Lukashevich",
+            "email": "wurdalak@tut.by"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "coderockr/php-query": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    }
+}

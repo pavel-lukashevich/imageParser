@@ -1,0 +1,22 @@
+<form action="/" method="post">
+    <span>URL:</span>
+    <input style="min-width: 300px" type="text" name="url" placeholder="https://3ax-xyz.000webhostapp.com">
+    <hr>
+    {{ message }}
+    <input type="radio" name="sitemap" value='check-sitemap' checked>
+    <span>check the sitemap, or make it yourself</span>
+    <br>
+    <input type="radio" name="sitemap" value='do-not-check-sitemap'>
+    <span>don't check the sitemap, make it yourself</span>
+    <br>
+    <input type="radio" name="sitemap" value="use-saved-sitemap">
+    <span>use previously saved site map</span>
+    <hr>
+    <input type="checkbox" name="do-not-save-sitemap" value="1">
+    <span>don't save sitemap for images</span>
+    <br>
+    <input type="checkbox" name="do-not-save-image" value="1">
+    <span>don't save images</span>
+    <hr>
+    <input type="submit" value="submit">
+</form>
